@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>مسجد الفرقان</title>
     <link rel="icon"  href="furqan_logo_url_data" />
     <!-- <style>
@@ -31,12 +31,20 @@
         --main-color: #d4a72c;
       }
 
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+    
       body,
       html {
         margin: 0;
         padding: 0;
-        height: 100%;
         width: 100%;
+        height: 100%;
+        height: 100dvh; 
+        min-height: -webkit-fill-available; 
         background-color: var(--off-white);
         /* font-family: 'Segoe UI', sans-serif; */
         overflow: hidden;
